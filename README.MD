@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O projeto foi desenvolvido para matéria Projeto Integrador : Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web, ministrada pelo professor João Carlos Lima e Silva da faculdade de Análise e desenvolvimento de Sistemas Senac - SP . <br>
-O projete é uma pagina web que estimula o aprendizado da lingua inglesa de forma dinâmica e interativa tendo como alvo central crianças e adolescentes que podem jogar o desafio proposto e aprender se divertindo. 
+O projeto é uma pagina web que estimula o aprendizado da lingua inglesa de forma dinâmica e interativa tendo como alvo central crianças e adolescentes que podem jogar o desafio proposto e aprender se divertindo. 
 
 
 
