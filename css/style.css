@@ -1,0 +1,508 @@
+/*Small devices ( @screen-sm-min Phones (<768px) )*/
+@media (min-width: 260px) {
+
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #6d20d1ab;  
+  }
+  
+  header#cabecalho-principal{
+    background-color: #44296811 ;
+    width: 100%;
+    height: 25px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  #pontuacao-game{
+    background-color: #bd8dd8;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    padding: 5px 9px;
+  
+    font-size: 18px;
+    font-weight: 500;
+  
+    margin-left: 10px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  #pontuacao-game img{
+    margin-right: 1,5px;
+  }
+
+  #nome-jogo{
+    font-weight: bolder;
+    font-size: 23px;
+    font-style: italic;
+    margin-right: 2px;
+  }
+
+  section#introducao{
+    background-color:rgba(101, 89, 118, 0.269) ;
+    margin: 20px 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 12px ;
+    color: rgb(226, 221, 219);
+  }
+  
+  section#corpo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  
+  section#corpo div#esquerda{
+
+    color: white;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  
+    align-items: center;
+  
+  }
+
+
+div#direita img{
+  max-width:400px;
+  max-height:300px;
+  width: auto;
+  height: auto;;
+  
+
+}
+
+section#corpo div#esquerda button#btn-responder{
+
+  background-color: transparent;
+  margin-top: 10px;
+
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+ padding: 15px 45px;
+}
+
+#cor-atual{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+ padding: 85px 85px;
+
+}
+
+div#container footer#rodape{
+  background-color: rgb(83, 1, 81);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  font-size: small;
+  color: beige;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+}
+
+/* Small devices (@screen-sm-min tablets, 768px and up) */
+@media (min-width: 768px) {
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #6d20d1ab;  
+  }
+  
+  header#cabecalho-principal{
+    background-color: #44296811 ;
+    width: 100%;
+    height: 40px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  #pontuacao-game{
+    background-color: #bd8dd8;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    padding: 5px 50px;
+  
+    font-size: 20px;
+    font-weight: 700;
+  
+    margin-left: 15px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  
+  
+  #pontuacao-game img{
+    margin-right: 5px;
+  }
+  
+  #nome-jogo{
+    margin-top: 6px;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-right: 5px;
+  }
+  
+  section#introducao{
+    margin: 10px 20px;
+    font-size: 12,5px ;
+    background-color:rgba(101, 89, 118, 0.269) ;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    color: rgb(226, 221, 219);
+  }
+  
+  section#corpo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  section#corpo div#esquerda{
+    margin-left: 11rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  
+    align-items: center;
+  }
+  
+  section#corpo div#esquerda div#cor-atual{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+  
+    border: 10px solid black;
+    border-radius: 15px;
+  }
+  
+  section#corpo div#esquerda button#btn-responder{
+  
+    background-color: transparent;
+    margin-top: 10px;
+  
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+   padding: 15px 45px;
+  }
+
+  #cor-atual{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+   padding: 85px 85px;
+  
+  }
+
+  div#direita{
+    margin-left: 6rem;
+  }
+  
+  div#direita img{
+    max-width:500px;
+    max-height:775px;
+    width: auto;
+    height: auto;
+  }
+  
+  div#container footer#rodape{
+    background-color: rgb(83, 1, 81);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* Medium devices ( @screen-md-min desktops, 992px and up) */
+@media (min-width: 992px) { 
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #6d20d1ab;  
+  }
+  
+  header#cabecalho-principal{
+    background-color: #44296811 ;
+    width: 100%;
+    height: 40px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #pontuacao-game{
+    background-color: #bd8dd8;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    padding: 5px 50px;
+  
+    font-size: 20px;
+    font-weight: 700;
+  
+    margin-left: 40px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  #pontuacao-game img{
+    margin-right: 5px;
+  }
+  
+  #nome-jogo{
+    font-weight: bolder;
+    font-size: 32px;
+    font-style: italic;
+    margin-right: 40px;
+  }
+  
+  section#introducao{
+    background-color:rgba(101, 89, 118, 0.269) ;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 14px ;
+    color: rgb(226, 221, 219);
+  }
+  
+  section#corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  section#corpo div#esquerda{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  
+    align-items: center;
+  }
+  
+  section#corpo div#esquerda div#cor-atual{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+  
+    border: 10px solid black;
+    border-radius: 15px;
+  }
+  
+  section#corpo div#esquerda button#btn-responder{
+  
+    background-color: transparent;
+    margin-top: 10px;
+  
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+   padding: 15px 45px;
+  }
+  
+  div#container footer#rodape{
+    background-color: rgb(83, 1, 81);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+
+
+/* Large devices ( @screen-lg-min large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #6d20d1ab;  
+  }
+  
+  header#cabecalho-principal{
+    background-color: #44296811 ;
+    width: 100%;
+    height: 40px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #pontuacao-game{
+    background-color: #bd8dd8;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    padding: 5px 50px;
+  
+    font-size: 20px;
+    font-weight: 700;
+  
+    margin-left: 40px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  #pontuacao-game img{
+    margin-right: 5px;
+  }
+  
+  #nome-jogo{
+    font-weight: bolder;
+    font-size: 32px;
+    font-style: italic;
+    margin-right: 40px;
+  }
+  
+  section#introducao{
+    background-color:rgba(101, 89, 118, 0.269) ;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 14px ;
+    color: rgb(226, 221, 219);
+  }
+  
+  section#corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  section#corpo div#esquerda{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+  
+    align-items: center;
+  }
+  
+  section#corpo div#esquerda div#cor-atual{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+  
+    border: 10px solid black;
+    border-radius: 15px;
+  }
+  
+  section#corpo div#esquerda button#btn-responder{
+  
+    background-color: transparent;
+    margin-top: 10px;
+  
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+   padding: 15px 45px;
+  }
+  
+  div#container footer#rodape{
+    background-color: rgb(83, 1, 81);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
