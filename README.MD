@@ -1,9 +1,10 @@
-<img align="center" alt=banner-principal src="/img/banner-principal.png">
-<h1 align="center"> Fun Color Challenge </h1>
+# Fun Color Challenge
 
+<div align="center">
+  <img src="/img/banner-principal.png" alt="Banner Principal">
+</div>
 
-
-<br>
+<h1 align="center">Fun Color Challenge</h1>
 
 ## 🚀 Tecnologias
 
@@ -15,23 +16,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+O Fun Color Challenge é uma página web que oferece uma abordagem dinâmica e interativa para aprender a língua inglesa, especialmente voltada para crianças e adolescentes. O objetivo é criar um ambiente de aprendizado divertido e envolvente.
 
-O projeto é uma pagina web que estimula o aprendizado da lingua inglesa de forma dinâmica e interativa tendo como alvo central crianças e adolescentes que podem jogar o desafio proposto e aprender se divertindo. <br> <br>
-Uma cor aparece na caixa com símbolo de interrogação com seu nome em inglês acima dela, quando o usuário clica em responder aparece embaixo da caixa a palavra "ouvindo" então é consumida uma API de reconhecimeto de voz do JavaScript que guarda o que o suário disse e devolve a informação se a pronuncia da cor da caixa está correta ao não, caso acerte ele ganha "moedas" que sinalizam seu progresso, caso ele erre essas "moedas" são decrementadas. <br> <br>
-Para acessar a pagina do jogo clique no link  [Fun Color Challenge](https://wagnersousalima.github.io/Game-FunColorChallenge/) ou caso queira ter uma copia local deste repositório em seu desktop pode usar o "git clone" clicando no link  [Como Clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository) terá um tutorial passo a passo.<br><br>
-Recomendamos o uso de fones de ouvido com microfone, uma vez que os ruidos do ambiente em volta podem atrapalhar na captação da fala, recomendamos também realizar o teste em outros navegadores e sistemas, podem ocorrer incompatibilidades que são particularmente inerentes a cada sistema. A API de reconheceimento de voz está em constante desenvolvimento e trata-se de um código de fonte aberta, com isso em mente existem chances de incongruências.<br><br>
-O projeto foi desenvolvido para matéria Projeto Integrador : Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web, ministrada pelo professor João Carlos Lima e Silva da faculdade de Análise e desenvolvimento de Sistemas Senac - SP . <br>
-Equipe de desenvolvedores : <br>
-Anderson da Silva Cortesani  <br>
-Anderson Felipe Barbosa Bredda <br>
-Ariel Sena Rebouças Galvão <br>
-Diogo Rodrigo Espindola Franco <br>
-Ricardo Leonel dos Santos <br>
-Thayna Ribeiro Martins <br>
-Wagner Augusto de Souza Lima  <br>
+### Principais recursos do Fun Color Challenge:
 
+- Aparece uma cor em uma caixa com um ponto de interrogação e seu nome em inglês acima dela.
+- Quando o usuário clica em "Responder", a palavra "ouvindo" é exibida abaixo da caixa, indicando que a API de reconhecimento de voz do JavaScript está ouvindo.
+- O usuário fala o nome da cor em inglês e a API de reconhecimento de voz captura o que foi dito.
+- A API verifica se a pronúncia da cor está correta ou não e fornece feedback ao usuário.
+- Se o usuário acertar, ele ganha "moedas" como recompensa pelo acerto, que sinalizam seu progresso no jogo.
+- Se o usuário errar, as "moedas" são decrementadas, incentivando-o a praticar e melhorar sua pronúncia.
 
+### Como acessar o Fun Color Challenge:
 
+- [Clique aqui para jogar o Fun Color Challenge](https://wagnersousalima.github.io/Game-FunColorChallenge/)
 
+### Observações:
+
+- Recomenda-se o uso de fones de ouvido com microfone para melhor captação da fala, uma vez que ruídos de fundo podem afetar o reconhecimento de voz.
+- O projeto foi testado em vários navegadores e sistemas, mas podem ocorrer incompatibilidades devido ao constante desenvolvimento da API de reconhecimento de voz, que é de código aberto.
+- Este projeto foi desenvolvido como parte da matéria "Projeto Integrador: Desenvolvimento de Sistemas Orientados a Dispositivos Móveis e Baseados na Web", ministrada pelo professor João Carlos Lima e Silva da faculdade de Análise e Desenvolvimento de Sistemas do Senac - SP.
+- Equipe de desenvolvedores: Anderson da Silva Cortesani, Anderson Felipe Barbosa Bredda, Ariel Sena Rebouças Galvão, Diogo Rodrigo Espindola Franco, Ricardo Leonel dos Santos, Thayna Ribeiro Martins, Wagner Augusto de Souza Lima.
 
 ---
+
+Divirta-se jogando o Fun Color Challenge e aprimorando suas habilidades em inglês! 🎮🌈
